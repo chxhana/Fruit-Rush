@@ -13,13 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2023-02-14T15:51:42.924-07:00
-  initializedAtString: 2023-02-14T15:51:42.620-07:00
+  lastUpdatedAtString: 2023-03-15T11:02:38.827-06:00
+  initializedAtString: 2023-03-15T10:20:53.385-06:00
   localBranches:
   - name: ErrorCheck
     tracking: origin/ErrorCheck
   - name: Fruit
     tracking: origin/Fruit
+  - name: MenuUI
+    tracking: origin/MenuUI
+  - name: UI-
+    tracking: origin/UI-
   - name: develop
     tracking: origin/develop
   - name: fruit-display
@@ -31,11 +35,33 @@ MonoBehaviour:
     tracking: '[None]'
   - name: origin/Fruit
     tracking: '[None]'
+  - name: origin/GiveToOmarLandonChahana
+    tracking: '[None]'
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/MenuUI
+    tracking: '[None]'
+  - name: origin/StartPointRelease2
+    tracking: '[None]'
+  - name: origin/TestBranch
+    tracking: '[None]'
+  - name: origin/UI-
+    tracking: '[None]'
+  - name: origin/WedMarch15
     tracking: '[None]'
   - name: origin/develop
     tracking: '[None]'
   - name: origin/fruit-display
+    tracking: '[None]'
+  - name: origin/joeErrorCheck
+    tracking: '[None]'
+  - name: origin/joeMakePart
+    tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
+  - name: origin/move-fruit
+    tracking: '[None]'
+  - name: origin/toLandon
     tracking: '[None]'
   remotes:
   - name: origin
@@ -49,6 +75,8 @@ MonoBehaviour:
     keys:
     - ErrorCheck
     - Fruit
+    - MenuUI
+    - UI-
     - develop
     - fruit-display
     - main
@@ -63,6 +91,16 @@ MonoBehaviour:
         name: origin
         url: https://github.com/chxhana/Coin-Rush.git
       trackingBranch: Fruit
+    - name: MenuUI
+      remote:
+        name: origin
+        url: https://github.com/chxhana/Coin-Rush.git
+      trackingBranch: MenuUI
+    - name: UI-
+      remote:
+        name: origin
+        url: https://github.com/chxhana/Coin-Rush.git
+      trackingBranch: UI-
     - name: develop
       remote:
         name: origin
@@ -85,9 +123,20 @@ MonoBehaviour:
     - Values:
       - ErrorCheck
       - Fruit
+      - GiveToOmarLandonChahana
       - HEAD
+      - MenuUI
+      - StartPointRelease2
+      - TestBranch
+      - UI-
+      - WedMarch15
       - develop
       - fruit-display
+      - joeErrorCheck
+      - joeMakePart
+      - main
+      - move-fruit
+      - toLandon
     subKeyValues:
     - Values:
       - name: ErrorCheck
@@ -100,7 +149,37 @@ MonoBehaviour:
           name: origin
           url: https://github.com/chxhana/Coin-Rush.git
         trackingBranch: 
+      - name: GiveToOmarLandonChahana
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: MenuUI
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: StartPointRelease2
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: TestBranch
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: UI-
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: WedMarch15
         remote:
           name: origin
           url: https://github.com/chxhana/Coin-Rush.git
@@ -111,6 +190,31 @@ MonoBehaviour:
           url: https://github.com/chxhana/Coin-Rush.git
         trackingBranch: 
       - name: fruit-display
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: joeErrorCheck
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: joeMakePart
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: move-fruit
+        remote:
+          name: origin
+          url: https://github.com/chxhana/Coin-Rush.git
+        trackingBranch: 
+      - name: toLandon
         remote:
           name: origin
           url: https://github.com/chxhana/Coin-Rush.git
