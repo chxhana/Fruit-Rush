@@ -10,6 +10,8 @@ public class MathKeypadInput : MonoBehaviour
     [SerializeField] private TextMeshProUGUI randomNumbersText;
     [SerializeField] private GameObject mathUI;
     [SerializeField] private Text collectablesText;
+    [SerializeField] private Text triesText;
+    private int tries = 3;
     private int collectables = 0;
     private static int randomX;
     private static int randomY;
@@ -51,6 +53,8 @@ public class MathKeypadInput : MonoBehaviour
                     collectablesText.text = "Items: " + collectables;
                 }
                 else {
+                    tries--;
+                    triesText.text = "Tries: " + tries;
                     Debug.Log("Incorrect Answer.");
                 }
                 mathUI.SetActive(false);

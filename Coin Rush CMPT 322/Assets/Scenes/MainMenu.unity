@@ -1443,6 +1443,7 @@ MonoBehaviour:
   randomNumbersText: {fileID: 1256362334}
   mathUI: {fileID: 947325461}
   collectablesText: {fileID: 2106509396}
+  triesText: {fileID: 812099553}
 --- !u!1001 &809125313
 PrefabInstance:
   m_ObjectHideFlags: 0
