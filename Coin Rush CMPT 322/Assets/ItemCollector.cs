@@ -18,8 +18,8 @@ public class ItemCollector : MonoBehaviour
             int randX;
             int randY;
             do {
-            randX = Random.Range(1,9);
-            randY = Random.Range(1,10);
+                randX = Random.Range(1,9);
+                randY = Random.Range(1,10);
             } while (randX + randY > 9);
             randomNumbersText.text = randX + " + " + randY + " =";
             Debug.Log("X = " + randX + ", Y = " + randY);
