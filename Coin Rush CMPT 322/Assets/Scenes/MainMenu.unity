@@ -556,6 +556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectablesText: {fileID: 2106509396}
+  randomNumbersText: {fileID: 1256362334}
 --- !u!1 &1190078839
 GameObject:
   m_ObjectHideFlags: 0
